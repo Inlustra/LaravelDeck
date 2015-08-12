@@ -3,7 +3,8 @@
 A simple example of using Laravel and AngularJS together to create a deck shuffling api.
 
 ### Launching:
-Ensure you have NodeJS and NPM installed. 
+Ensure you have NodeJS and NPM installed.
+Create a .env file at the root of the application.
 Run the following commands:
 ```sh
 $ npm install
