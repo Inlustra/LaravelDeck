@@ -11,8 +11,11 @@ $ npm install
 $ bower install
 ```
 
+#### For the lazy:
+The file LaravelDeck.zip can be downloaded and extracted (npm and Bower components are installed).
+
 Create an apache root in the /public folder and you're ready to go!
-#### Notes:
+### Notes:
 * This was an exercise over 2 and a half hours, due to the time constraints (returned home around 8.30pm), it is important to note the lack of proper documentation. 
 * The use of Angular ui-router was mainly to showcase the application structure in a working environment.
 * All views are pulled in as Blade Templates
