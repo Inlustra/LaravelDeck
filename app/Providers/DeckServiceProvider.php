@@ -2,7 +2,6 @@
 
 namespace App\Deck;
 
-use App\Deck\Deck;
 use Illuminate\Support\ServiceProvider;
 
 class DeckServiceProvider extends ServiceProvider
@@ -14,7 +13,8 @@ class DeckServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('App\Deck\Deck', function ($app) {
+        $this->app->bind('Deck', function()
+        {
             return new Deck();
         });
     }
