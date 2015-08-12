@@ -12,7 +12,7 @@ $ bower install
 ```
 
 #### For the lazy:
-The file LaravelDeck.zip can be downloaded and extracted (npm and Bower components are installed).
+The file [LaravelDeck.zip](https://github.com/Inlustra/LaravelDeck/blob/master/LaravelDeck.zip?raw=true "LaravelDeck.zip") can be downloaded and extracted (npm and Bower components are installed).
 
 Create an apache root in the /public folder and you're ready to go!
 ### Notes:
